@@ -40,4 +40,28 @@ public class TestEjercicios {
         trianguloNumeros.getTriangulo(16);
     }
 
+    @Test
+    void testCaracol() {
+        Caracol caracol = new Caracol();
+        caracol.getCaracol(2, 2);
+    }
+
+    @Test
+    void testFibonacci() {
+        Fibonacci fibonacci = new Fibonacci();
+        fibonacci.getFibonacci(10);
+    }
+
+    @Test
+    void testPi() {
+        Pi pi = new Pi();
+        pi.getPi(10000000);
+    }
+
+    @Test
+    void testTrianguloImpar() {
+        TrianguloImpar trianguloImpar = new TrianguloImpar();
+        trianguloImpar.getTriangulo(10, 0);
+    }
+
 }
