@@ -64,4 +64,16 @@ public class TestEjercicios {
         trianguloImpar.getTriangulo(10, 0);
     }
 
+    @Test
+    void testRombo() {
+        Rombo rombo = new Rombo();
+        rombo.getRombo(7);
+    }
+
+    @Test
+    void testCuadradoLatino() {
+        CuadradoLatino cuadradoLatino = new CuadradoLatino();
+        cuadradoLatino.getCuadradoLatino3(4);
+    }
+
 }
